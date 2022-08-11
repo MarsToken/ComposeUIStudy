@@ -6,6 +6,9 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
+/**
+ * 字体排版，可自定义
+ */
 // Set of Material typography styles to start with
 val Typography = Typography(
     body1 = TextStyle(
@@ -25,4 +28,13 @@ val Typography = Typography(
         fontSize = 12.sp
     )
     */
+)
+
+/**
+ * 不想用系统的也可单独定义
+ */
+val textStyleDiy = TextStyle(
+    fontFamily = FontFamily.Default,
+    fontWeight = FontWeight.Normal,
+    fontSize = 60.sp
 )
