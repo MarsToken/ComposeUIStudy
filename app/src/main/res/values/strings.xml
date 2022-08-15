@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ComposeUI</string>
+    <string name="str_text_introduce">BAT</string>
 </resources>
